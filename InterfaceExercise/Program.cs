@@ -69,7 +69,7 @@ namespace InterfaceExercise
                 Model = "Jimmy",
                 Year = 1985,
                 BrandName = "GMC of Ontario",
-                WebSite = "www.ontariogmc",
+                WebSite = "www.ontariogmc.com",
                 SeatNum = 5,
                 HasThirdRow = false,
             };

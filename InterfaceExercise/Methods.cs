@@ -13,7 +13,7 @@ namespace InterfaceExercise
     {
         public static void VehicleDetailDisplay(Car car)
         {
-            Console.WriteLine($"This {car} has the following properties:");
+            Console.WriteLine($"This car has the following properties:");
             Console.WriteLine(car.TrunkSize);
             Console.WriteLine(car.BrandName);
             Console.WriteLine(car.WebSite);
@@ -26,7 +26,7 @@ namespace InterfaceExercise
         }
         public static void VehicleDetailDisplay(SUV suv)
         {
-            Console.WriteLine($"This {suv} has the following properties:");
+            Console.WriteLine($"This SUV has the following properties:");
             Console.WriteLine(suv.SeatNum);
             Console.WriteLine(suv.BrandName);
             Console.WriteLine(suv.WebSite);
@@ -39,7 +39,7 @@ namespace InterfaceExercise
         }
         public static void VehicleDetailDisplay(Truck truck)
         {
-            Console.WriteLine($"This {truck} has the following properties:");
+            Console.WriteLine($"This truck has the following properties:");
             Console.WriteLine(truck.BedDimensions);
             Console.WriteLine(truck.BrandName);
             Console.WriteLine(truck.WebSite);
